@@ -1,56 +1,16 @@
-# 📂 DriveLink – Flutter File Sharing App with Google Cloud
+# drivelink
 
-**DriveLink** is a Flutter-based file-sharing application that allows users to upload files, generate QR codes and download links, and easily share files with others. Built using Firebase and Google Cloud, the app ensures secure storage and seamless access to shared content.
+A new Flutter project.
 
----
+## Getting Started
 
-## ✨ Features
+This project is a starting point for a Flutter application.
 
-- 🔐 **User Authentication**
-  - Google Sign-In
-  - Manual Sign-Up (Name, Email, Password)
+A few resources to get you started if this is your first Flutter project:
 
-- 📤 **File Upload**
-  - Upload any type of file to cloud storage
-  - Support for multiple file selection
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-- 🔗 **Smart File Sharing**
-  - Generate public download links
-  - Auto-generate downloadable QR codes
-  - Save QR to gallery
-  - Copy file link to clipboard
-
-- 📲 **QR Scanner**
-  - Scan QR codes to instantly download shared files
-
-- 👤 **Account Management**
-  - Secure logout option
-
----
-
-## 🛠 Tech Stack
-
-| Layer       | Technology                |
-|-------------|---------------------------|
-| Frontend    | Flutter (Dart)            |
-| Backend     | Firebase Authentication, Firestore, Cloud Storage |
-| QR Handling | `qr_flutter`, `qr_code_scanner` |
-| Utilities   | Firebase Dynamic Links    |
-| Hosting     | Firebase Hosting (for file download page) |
-
----
-
-## 📱 App Flow
-
-1. **Login / Sign-Up Page**
-2. **File Upload Screen**
-3. **Drive Screen**
-   - View Uploaded Files
-   - Generate Link & QR
-   - Save QR to Gallery
-   - Copy Link
-4. **QR Scanner**
-   - Scan QR → Download File
-5. **Logout**
-
-
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

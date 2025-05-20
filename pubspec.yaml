@@ -1,0 +1,42 @@
+name: drivelink
+description: College project ke liye file sharing app
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_sign_in: ^6.2.1
+  googleapis: ^13.1.0
+  googleapis_auth: ^1.6.0
+  file_picker: ^8.0.6
+  url_launcher: ^6.2.4
+  http: ^1.2.0
+  shared_preferences: ^2.2.2
+  qr_flutter: ^4.1.0
+  share_plus: ^7.2.1
+  screenshot: ^2.1.0
+  path_provider: ^2.1.1
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  assets:
+    - assets/logo.png
+
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"  # Yahan aap apna icon set karein
+  adaptive_icon_background: "#ffffff"  # Adaptive icons ke liye background color
